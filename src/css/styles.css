@@ -19,7 +19,6 @@ body {
   box-sizing: border-box;
   text-align: center;
   background: var(--ligth-color);
-  /* background: linear-gradient(90deg, var(--terciary-color) 0%, var(--ligth-color) 100%); */
   color: var(--dark-color);
   margin: 0;
   padding: 0;
