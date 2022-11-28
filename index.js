@@ -8,8 +8,8 @@ const footer = document.querySelector("footer");
 // LLamadas a las funciones
 burguerIcon.addEventListener("click", togleMobileMenu);
 mobileMenu.addEventListener("click", togleMobileMenu);
-section.addEventListener("click", togleMobileMenu);
-footer.addEventListener("click", togleMobileMenu);
+section.addEventListener("click", closeMobileMenu);
+footer.addEventListener("click", closeMobileMenu);
 
 
 // Declaración de funciones
