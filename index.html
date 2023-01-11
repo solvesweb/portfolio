@@ -1,285 +1,232 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700;900&display=swap"
-      rel="stylesheet"
-    />
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-    />
-    <link rel="stylesheet" href="./src/css/styles.css" />
 
-    <title>👨🏻‍💻 Solves Web | Frontend Developer</title>
-  </head>
-  <body>
-    <header>
-      <nav>
-        <div class="nav--logo-container">
-          <img id="logo" src="./assets/icons/logo.svg" alt="Logo Solves Web" />
-        </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" href="./src/css/styles.css" />
+  <link rel="icon" href="./assets/icons/logo.svg">
 
-        <div class="desktop-menu">
-          <ul>
-            <li class="menu--link">
-              <a href="#education">Formación</a>
-            </li>
-            <li class="menu--link">
-              <a href="#projects">Proyectos</a>
-            </li>
-            <li class="menu--link">
-              <a href="#about">Sobre mi</a>
-            </li>
-            <li class="menu--link">
-              <a href="#contact">Contacto</a>
-            </li>
-          </ul>
-        </div>
+  <title>Solves Web | Frontend Developer</title>
+</head>
 
-        <img
-          id="toggle-menu"
-          class="inactive"
-          src="./assets/icons/half-moon.svg"
-          alt=""
-        />
-        <img id="burguer-menu" src="./assets/icons/menu.svg" alt="" />
-      </nav>
-    </header>
-    <main>
-      <aside>
-        <div class="mobile-menu-container">
-          <ul class="mobile-menu inactive">
-            <li class="menu--link">
-              <a href="#education">Formación</a>
-            </li>
-            <li class="menu--link">
-              <a href="#projects">Proyectos</a>
-            </li>
-            <li class="menu--link">
-              <a href="#about">Sobre mi</a>
-            </li>
-            <li class="menu--link">
-              <a href="#contact">Contacto</a>
-            </li>
-          </ul>
-        </div>
-      </aside>
-      <section id="title">
-        <div class="title--container">
-          <h1 class="animate__animated animate__fadeInLeftBig">Hola, me llamo <span class="solves">Solves</span></h1>
-          <h3 class="animate__animated animate__fadeInUpBig">Soy <b>Frontend Developer</b></h3>
-          <p class="title--text">
-            🎨 Me encanta crear aplicaciones web siempre con un <b>diseño responsivo</b>.<br/>
-          </p>
-          <p class="title--text">
-            💪🏻 <b>EL trabajo en equipo</b> y la <b>adaptabilidad al cambio</b> son dos de mis habilidades más fuertes.<br />
-          </p>
-          <p class="title--text">
-            📚 Estoy en continuo aprendizaje, para 
-            <b>convertirme en un buen Desarrollador Fullstack</b>.
-          </p>
-          <div class="title--btn-container">
-            <a class="btn-primary" href="#projects">Proyectos</a>
-            <a class="btn-light" href="#about">Sobre mi</a>
-          </div>
-        </div>
-      </section>
-
-      <section id="education">
-        <div class="education--container">
-          <h2>👨🏻‍🎓 Formación</h2>
-          <div class="education--module-container">
-            <h4> <a href="https://medac.es/grado-superior/daw-desarrollo-aplicaciones-web" target="_blank" rel="noopener noreferrer"><b>Grado Superior de Desarrollo de Aplicaciones Web</b> | Medac.</a>
-              
-            </h4>
-            <p>
-              Me encuentro a punto de acabar esta formación profesional, donde he aprendido
-              lenguajes de Programación como <b>Java</b> y <b>Python</b>, además
-              de <b>HTML</b>, <b>CSS</b> y <b>JavaScript</b>. El uso Bases de
-              datos relacionales y no realcionales, así como todo lo relacionado
-              con Sistemas informáticos y los diferentes Entornos de Desarrollo.
-              <br/>Para el Frontend Utilizamos <b>Angular</b>, y para el lado servidor <b>PHP</b> y <b>NodeJS</b>. Para realizar el Despliegue de Aplicaciones se
-              aprende a usar <b>Docker</b> entre otras tecnologías. <br />
-              Por otro lado también se imparte <b>Inglés</b> y Empresa e iniciativa
-              emprendedora, dos asignaturas que no son técnicas pero importantes
-              para mi futuro.
-            </p>
-          </div>
-
-          <div class="education--module-container">
-            <h4><a href="https://geekshubsacademy.com/producto/frontend-react/" target="_blank" rel="noopener noreferrer"><b>Frontend React Online</b> | GeeksHubs Academy</h4></a>
-            <p>
-              En mi objetivo de desarrollarme como Frontend, estoy realizando este curso, para poder dominar <b>React</b>.
-              Los contenidos son los siguientes:
-              <p class="education--gh-list">GIT + GITHUB<br>NODE + NPM<br>REACT JS + REDUX<br>BABEL + WEBPACK<br>TESTING FRONTEND</p>
-            </p>
-          </div>
-
-          <div class="education--module-container">
-            <h4><a href="https://platzi.com/p/Solves/" target="_blank" rel="noopener noreferrer"><b>Fullstack Developer</b> | Platzi</a></h4>
-            <p>
-              Por otro lado, he encontrado en Platzi una plataforma de aprendizaje en la cual puedo formar en diferentes áreas. Tanto en habilidades propias de la programación, como en habilidades blandas, inglés o finanzas.
-              Aquí te dejo <b><a href="https://platzi.com/p/Solves/" target="_blank">mi perfil</a></b> con todas las Certificaciones.
-          </div>
-        </div>
-      </section>
-
-      <section id="projects">
-        <h2>✍🏻 Proyectos</h2>
-        <div class="projects--container">
-          <div class="projects--card">
-            <h4>Tindog</h4>
-
-            <img
-              class="projects--card-img"
-              src="./assets/images/tindog.jpg"
-              alt=""
-            />
-
-            <div class="card--tecnologies">
-              <p>HTML, CSS y Bootstrap</p>
-            </div>
-            <div class="card--urls">
-              <a href="https://github.com/solvesweb/tindog" target="_blank"
-                ><img
-                  class="urls--link"
-                  src="./assets/icons/code-solid.svg"
-                  alt=""
-              /></a>
-              <a href="https://tindog-myapp.netlify.app/" target="_blank"
-                ><img
-                  class="urls--link"
-                  src="./assets/icons/link-solid.svg"
-                  alt=""
-              /></a>
-            </div>
-          </div>
-
-          <div class="projects--card">
-            <h4>Google Clone</h4>
-            <img
-              class="projects--card-img"
-              src="./assets/images/g-clone.jpg"
-              alt=""
-            />
-
-            <div class="card--tecnologies">
-              <p>HTML y CSS</p>
-            </div>
-            <div class="card--urls">
-              <a href="https://github.com/solvesweb/google-clone" target="_blank"
-                ><img
-                  class="urls--link"
-                  src="./assets/icons/code-solid.svg"
-                  alt=""
-              /></a>
-              <a href="https://solvesweb.github.io/google-clone/" target="_blank"
-                ><img
-                  class="urls--link"
-                  src="./assets/icons/link-solid.svg"
-                  alt=""
-              /></a>
-            </div>
-          </div>
-
-          <div class="projects--card">
-            <h4>Football Store</h4>
-            <img
-              class="projects--card-img"
-              src="./assets/images/f-store.jpg"
-              alt=""
-            />
-            <div class="card--tecnologies">
-              <p>HTML, CSS y JavaScript</p>
-            </div>
-            <div class="card--urls">
-              <a
-                href="https://github.com/solvesweb/football-store"
-                target="_blank"
-                ><img
-                  class="urls--link"
-                  src="./assets/icons/code-solid.svg"
-                  alt=""
-              /></a>
-              <a
-                href="https://solvesweb.github.io/football-store/"
-                target="_blank"
-                ><img
-                  class="urls--link"
-                  src="./assets/icons/link-solid.svg"
-                  alt=""
-              /></a>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="about">
-        <h2>🙋🏻‍♂️ Sobre mi</h2>
-        <div class="about--container">
-          
-          <p>Hace un par de años encontré un curso de Análisis de Datos en el Fútbol (mi gran pasión).
-            Realmente el curso era de R, un lenguaje de programación, pero específico para Analistas de Fútbol. <br>
-            Eso me hizo interesarme por la programación, y le pregunté a un amigo por esto. <br>
-            Me recomendó aprender a programar con <b>Python</b>, y conseguí escribir mi primer “Hola Mundo”. 
-            Desde ese día no he parado de aprender. <br>
-            He decidido renunciar a mi puesto de funcionario para poder dedicarme plenamente al desarrollo web, y convertirme en un <b>Desarrollador FullStack</b>.
-            
-
-          </p>
-          <img class="about--photo" src="./assets/images/photo.png" alt="" />
-        </div>
-      </section>
-
-      <section id="contact">
-        <h2>📧 Contáctame</h2>
-        <div class="contact--container">
-          
-          <p>
-            Estoy en búsqueda activa de empleo, con muchas ganas de demostrar todas mis habilidades. <br>
-Siempre estoy abierto a tener nuevos enlaces, y más si tenemos las mismas inquietudes, así que no dudes en contactarme. Envíame un email y sígueme en mis redes sociales.
-
-          </p>
-          <a href="mailto:solvesweb@gmail.com">
-            <span class="btn-primary">Email</span>
-          </a>
-        </div>
-      </section>
-    </main>
-    <footer>
-      <div class="footer--div">
-        <div class="footer--div-link">
-          <a href="https://github.com/solvesweb" target="_blank">
-            <img
-              class="footer--link"
-              src="./assets/icons/github.svg"
-              alt="Github profile"
-            />
-          </a>
-          <a href="https://www.linkedin.com/in/solves8/" target="_blank">
-            <img
-              class="footer--link"
-              src="./assets/icons/linkedin.svg"
-              alt="Linkedin profile"
-            />
-          </a>
-          <a href="https://twitter.com/SolvesWeb" target="_blank">
-            <img
-              class="footer--link"
-              src="./assets/icons/twitter.svg"
-              alt="Twitter profile"
-            />
-          </a>
-        </div>
-        <p>Sitio web hecho por mi 🙃</p>
+<body>
+  <header>
+    <nav>
+      <div class="nav--logo-container">
+        <img id="logo" src="./assets/icons/logo.svg" alt="Logo Solves Web" />
       </div>
-    </footer>
-    <script src="index.js"></script>
-  </body>
+
+      <div class="desktop-menu">
+        <ul>
+          <li class="menu--link">
+            <a href="#education">Formación</a>
+          </li>
+          <li class="menu--link">
+            <a href="#projects">Proyectos</a>
+          </li>
+          <li class="menu--link">
+            <a href="#about">Sobre mi</a>
+          </li>
+          <li class="menu--link">
+            <a href="#contact">Contacto</a>
+          </li>
+        </ul>
+      </div>
+
+      <img id="toggle-menu" class="inactive" src="./assets/icons/half-moon.svg" alt="" />
+      <img id="burguer-menu" src="./assets/icons/menu.svg" alt="" />
+    </nav>
+  </header>
+  <main>
+    <aside>
+      <div class="mobile-menu-container">
+        <ul class="mobile-menu inactive">
+          <li class="menu--link">
+            <a href="#education">Formación</a>
+          </li>
+          <li class="menu--link">
+            <a href="#projects">Proyectos</a>
+          </li>
+          <li class="menu--link">
+            <a href="#about">Sobre mi</a>
+          </li>
+          <li class="menu--link">
+            <a href="#contact">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+    <section id="title">
+      <div class="title--container">
+        <h1 class="animate__animated animate__fadeInLeftBig">Hola, me llamo <span class="solves">Solves</span></h1>
+        <h3 class="animate__animated animate__fadeInUpBig">Soy <b>Frontend Developer</b></h3>
+        <p class="title--text">
+          🎨 Me encanta crear aplicaciones web siempre con un <b>diseño responsivo</b>.<br />
+        </p>
+        <p class="title--text">
+          💪🏻 <b>EL trabajo en equipo</b> y la <b>adaptabilidad al cambio</b> son dos de mis habilidades más
+          fuertes.<br />
+        </p>
+        <p class="title--text">
+          📚 Estoy en continuo aprendizaje, para
+          <b>convertirme en un buen Desarrollador Fullstack</b>.
+        </p>
+        <div class="title--btn-container">
+          <a class="btn-primary" href="#projects">Proyectos</a>
+          <a class="btn-light" href="#about">Sobre mi</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="education">
+      <div class="education--container">
+        <h2>👨🏻‍🎓 Formación</h2>
+        <div class="education--module-container">
+          <h4> <a href="https://medac.es/grado-superior/daw-desarrollo-aplicaciones-web" target="_blank"
+              rel="noopener noreferrer"><b>Grado Superior de Desarrollo de Aplicaciones Web</b> | Medac.</a>
+
+          </h4>
+          <p>
+            Me encuentro a punto de acabar esta formación profesional, donde he aprendido
+            lenguajes de Programación como <b>Java</b> y <b>Python</b>, además
+            de <b>HTML</b>, <b>CSS</b> y <b>JavaScript</b>. El uso Bases de
+            datos relacionales y no relacionales, así como todo lo relacionado
+            con Sistemas informáticos y los diferentes Entornos de Desarrollo.
+            <br />Para el Frontend Utilizamos <b>Angular</b>, y para el lado servidor <b>PHP</b> y <b>NodeJS</b>. Para
+            realizar el Despliegue de Aplicaciones se
+            aprende a usar <b>Docker</b> entre otras tecnologías. <br />
+            Por otro lado también se imparte <b>Inglés</b> y Empresa e iniciativa
+            emprendedora, dos asignaturas que no son técnicas pero importantes
+            para mi futuro.
+          </p>
+        </div>
+
+        <div class="education--module-container">
+          <h4><a href="https://geekshubsacademy.com/producto/frontend-react/" target="_blank"
+              rel="noopener noreferrer"><b>Frontend React Online</b> | GeeksHubs Academy</h4></a>
+          <p>
+            En mi objetivo de desarrollarme como Frontend, estoy realizando este curso, para poder dominar <b>React</b>.
+            Los contenidos son los siguientes:
+          <p class="education--gh-list">GIT + GITHUB<br>NODE + NPM<br>REACT JS + REDUX<br>BABEL + WEBPACK<br>TESTING
+            FRONTEND</p>
+          </p>
+        </div>
+
+        <div class="education--module-container">
+          <h4><a href="https://platzi.com/p/Solves/" target="_blank" rel="noopener noreferrer"><b>Fullstack
+                Developer</b> | Platzi</a></h4>
+          <p>
+            Por otro lado, he encontrado en Platzi una plataforma de aprendizaje en la cual puedo formar en diferentes
+            áreas. Tanto en habilidades propias de la programación, como en habilidades blandas, inglés o finanzas.
+            Aquí te dejo <b><a href="https://platzi.com/p/Solves/" target="_blank">mi perfil</a></b> con todas las
+            Certificaciones.
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>✍🏻 Proyectos</h2>
+      <div class="projects--container">
+        <div class="projects--card">
+          <h4>Tindog</h4>
+
+          <img class="projects--card-img" src="./assets/images/tindog.jpg" alt="" />
+
+          <div class="card--tecnologies">
+            <p>HTML, CSS y Bootstrap</p>
+          </div>
+          <div class="card--urls">
+            <a href="https://github.com/solvesweb/tindog" target="_blank"><img class="urls--link"
+                src="./assets/icons/code-solid.svg" alt="" /></a>
+            <a href="https://tindog-myapp.netlify.app/" target="_blank"><img class="urls--link"
+                src="./assets/icons/link-solid.svg" alt="" /></a>
+          </div>
+        </div>
+
+        <div class="projects--card">
+          <h4>Google Clone</h4>
+          <img class="projects--card-img" src="./assets/images/g-clone.jpg" alt="" />
+
+          <div class="card--tecnologies">
+            <p>HTML y CSS</p>
+          </div>
+          <div class="card--urls">
+            <a href="https://github.com/solvesweb/google-clone" target="_blank"><img class="urls--link"
+                src="./assets/icons/code-solid.svg" alt="" /></a>
+            <a href="https://solvesweb.github.io/google-clone/" target="_blank"><img class="urls--link"
+                src="./assets/icons/link-solid.svg" alt="" /></a>
+          </div>
+        </div>
+
+        <div class="projects--card">
+          <h4>Football Store</h4>
+          <img class="projects--card-img" src="./assets/images/f-store.jpg" alt="" />
+          <div class="card--tecnologies">
+            <p>HTML, CSS y JavaScript</p>
+          </div>
+          <div class="card--urls">
+            <a href="https://github.com/solvesweb/football-store" target="_blank"><img class="urls--link"
+                src="./assets/icons/code-solid.svg" alt="" /></a>
+            <a href="https://solvesweb.github.io/football-store/" target="_blank"><img class="urls--link"
+                src="./assets/icons/link-solid.svg" alt="" /></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <h2>🙋🏻‍♂️ Sobre mi</h2>
+      <div class="about--container">
+
+        <p>Hace dos años conocí la programación gracias a un amigo que me enseñó a programar con <b>Python</b>. Desde
+          entonces, me he interesado cada vez más por el mundo de la programación y he decidido formarme en Desarrollo
+          web con el objetivo de cambiar de profesión. Actualmente, estoy enfocado en aprender todo lo necesario para
+          convertirme en un <b>Desarrollador Fullstack</b> y poder trabajar en proyectos web desde la idea hasta su
+          implementación final. Estoy seguro de que con esfuerzo y dedicación, lograré alcanzar mis metas.
+        </p>
+        <img class="about--photo" src="./assets/images/photo.png" alt="" />
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>📧 Contáctame</h2>
+      <div class="contact--container">
+
+        <p>
+          Estoy en búsqueda activa de empleo, con muchas ganas de demostrar todo. <br>
+          Siempre estoy abierto a tener nuevos enlaces, y más si tenemos las mismas inquietudes, así que no dudes en
+          contactarme. Envíame un email y sígueme en mis redes sociales.
+
+        </p>
+        <a href="mailto:solvesweb@gmail.com">
+          <span class="btn-primary">Email</span>
+        </a>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="footer--div">
+      <div class="footer--div-link">
+        <a href="https://github.com/solvesweb" target="_blank">
+          <img class="footer--link" src="./assets/icons/github.svg" alt="Github profile" />
+        </a>
+        <a href="https://www.linkedin.com/in/solves8/" target="_blank">
+          <img class="footer--link" src="./assets/icons/linkedin.svg" alt="Linkedin profile" />
+        </a>
+        <a href="https://twitter.com/SolvesWeb" target="_blank">
+          <img class="footer--link" src="./assets/icons/twitter.svg" alt="Twitter profile" />
+        </a>
+      </div>
+      <p>Sitio web hecho por mi 🙃</p>
+    </div>
+  </footer>
+  <script src="index.js"></script>
+</body>
+
 </html>

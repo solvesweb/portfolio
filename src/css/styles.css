@@ -299,7 +299,6 @@ nav {
 
 #contact p {
   margin-bottom: 40px;
-  text-align: center;
 }
 /* Footer */
 
@@ -435,9 +434,6 @@ footer {
     margin-bottom: 16px;
   }
 
-  p {
-    text-align: left;
-  }
   .projects--container {
     display: flex;
     flex-direction: row;
@@ -453,6 +449,10 @@ footer {
   .about--container p {
     padding-right: 60px;
   } 
+
+  #about p {
+    text-align: left;
+  }
 }
 
 
